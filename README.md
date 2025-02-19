@@ -101,3 +101,12 @@ mut:
 ```
 
 PLY uses `docstrings` and SLY `decorators` for implementing the grammar rules strings on the implementation functions but `V` does not have nothing of them features so VLY will use the previous `struct` to associate the grammar rule string with its implementation function.
+
+Fow now this is only an initial idea, I hope to start working on this soon.
+
+
+## Have questions or want to contribute?
+
+Nice, you can contact me via mail.
+
+Email: fmartinezsanta@gmail.com

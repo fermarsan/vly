@@ -1,8 +1,8 @@
 // Parser example
 import os
 import vly { 
-	rule
-    parser 
+	rule,
+    parser,
     parser.prod    // production
 }
 

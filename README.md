@@ -99,3 +99,5 @@ mut:
 	impl fn(p vly.parser.prod) vly.parser.prod
 }
 ```
+
+PLY uses `docstrings` and SLY `decorators` for implementing the grammar rules strings but `V` does not have nothing of them so VLY will use the previous `struct` to associate the grammar rule with its implementation function.

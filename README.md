@@ -1,6 +1,6 @@
-# VLY will be a port of PLY/SLY parser on vlang
+# VLY will be a port of PLY / SLY parser on vlang
 
-This repository contains the initial idea of implementing a port of Python's PLY/SLY parsers/lexers on vlang.
+This repository contains the initial idea of implementing a port of Python's [PLY](https://ply.readthedocs.io/en/latest/ply.html#an-example) / [SLY](https://sly.readthedocs.io/en/latest/sly.html) parsers/lexers on vlang.
 
 VLY pretends to implement parser/lexers like this calculator example:
 
@@ -87,5 +87,15 @@ for {
     if !s { continue }
     result := parser.parse(s)
     println(result)
+}
+```
+
+This declare instances of `GrammarRule`struct:
+
+```v
+struct GrammarRule {
+mut:
+	rule string
+	impl fn(p vly.parser.prod) vly.parser.prod
 }
 ```

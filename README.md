@@ -100,4 +100,4 @@ mut:
 }
 ```
 
-PLY uses `docstrings` and SLY `decorators` for implementing the grammar rules strings but `V` does not have nothing of them so VLY will use the previous `struct` to associate the grammar rule with its implementation function.
+PLY uses `docstrings` and SLY `decorators` for implementing the grammar rules strings on the implementation functions but `V` does not have nothing of them features so VLY will use the previous `struct` to associate the grammar rule string with its implementation function.

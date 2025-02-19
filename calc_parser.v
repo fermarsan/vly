@@ -7,7 +7,7 @@ import vly {
 }
 
 // Get the token map from the lexer.  This is required.
-import calc_lexer { tokens }
+import calc_lexer
 
 p_expression_plus := rule.GrammarRule {
     rule:   'expression : expression PLUS term'

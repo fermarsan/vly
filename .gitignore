@@ -1,0 +1,34 @@
+# Ignore binary files
+*.exe
+*.o
+*.so
+*.dll
+*.dylib
+
+# Ignore compiled V files
+*.c
+*.h
+
+# Ignore build directories
+/build/
+/bin/
+/out/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*.bak
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency directories
+.vmodules/

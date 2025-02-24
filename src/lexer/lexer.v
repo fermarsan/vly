@@ -5,7 +5,7 @@ import regex
 
 // ------------------------------------------------------------------------
 // This regular expression is used to match valid token names
-const is_identifier = regex.regex_opt(r'^[a-zA-Z0-9_]+$') or { panic(err) }
+pub const is_identifier = regex.regex_opt(r'^[a-zA-Z0-9_]+$') or { panic(err) }
 // ------------------------------------------------------------------------
 
 // # Exception thrown when invalid token encountered and no default error

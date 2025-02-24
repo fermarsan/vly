@@ -1,11 +1,13 @@
-import src.lexer
+module lexer
 
 
-my_token := lexer.LexToken{
-	typ: 	'unknown'
-	value:	'~'
-	lineno:	4
-	lexpos: 5
+fn test_token() {
+	my_token := LexToken{
+		typ: 	'unknown'
+		value:	'~'
+		lineno:	4
+		lexpos: 5
+	}
+
+	println('My token:\n${my_token}')
 }
-
-println('My token:\n${my_token}')

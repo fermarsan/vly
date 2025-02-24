@@ -1,5 +1,0 @@
-unknown identifier. unknown variable
-unknown identifier. unknown variable
-unknown identifier. unknown variable
-WARNING: unknown identifier. unknown variable
-ERROR: unknown identifier. unknown variable
